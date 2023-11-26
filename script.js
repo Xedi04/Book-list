@@ -3,11 +3,11 @@ let input2=document.querySelector("#input2");
 let input3=document.querySelector("#input3");
 let Btn=document.querySelector("#btn");
 let tbody=document.querySelector("#tbody");
-let m=document.querySelector("#m");
+
 
 Btn.addEventListener("click", ()=>{
     if(input1.value.trim() ==="" || input2.value.trim() ==="" || input3.value.trim() ===""){
-        m.innerHTML="Zehmet olmasa bosluqu doldurun";
+        alert("Zehmet olmasa boslugu doldurun");
     }else{
        
     let tr=document.createElement("tr");
