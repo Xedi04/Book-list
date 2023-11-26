@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section .all {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 100px 0;
+  gap: 30px;
+}
+section .all .head {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+section .all .head img {
+  width: 7%;
+  margin-right: 20px;
+}
+section .all .head span {
+  font-size: 70px;
+}
+section .all .head #book {
+  color: olive;
+}
+section .all .labels {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+section .all .labels label {
+  font-size: 25px;
+  color: rgb(143, 50, 68);
+}
+section .all .labels input {
+  width: 100%;
+  height: 50px;
+  border: 1px solid olive;
+  font-size: 20px;
+}
+section .all .radios {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+section .all .radios span {
+  font-size: 20px;
+  color: rgb(143, 50, 68);
+}
+section .all button {
+  width: 100%;
+  height: 50px;
+  font-size: 30px;
+  border: 1px solid olive;
+  background-color: olive;
+  color: white;
+}
+section .all table {
+  width: 100%;
+  border: 1px solid olive;
+  margin-top: 50px;
+}
+section .all table thead {
+  width: 100%;
+  height: 60px;
+}
+section .all table thead tr th {
+  font-size: 20px;
+  border: 1px solid olive;
+  background-color: olive;
+  color: white;
+}
+section .all table tbody {
+  width: 100%;
+  height: 40px;
+}
+section .all table tbody tr td {
+  font-size: 20px;
+}
+section .all #m {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: red;
+}/*# sourceMappingURL=style.css.map */

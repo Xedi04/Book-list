@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .all {
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 100px 0;
+        gap: 30px;
+
+        .head {
+            width: 100%;
+            display: flex;
+            align-items: center;
+
+            img {
+                width: 7%;
+                margin-right: 20px;
+            }
+
+            span {
+                font-size: 70px;
+            }
+
+            #book {
+                color: olive;
+            }
+        }
+
+        .labels {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            label{
+                font-size: 25px;
+                color:rgb(143, 50, 68);
+            }
+            input{
+                width: 100%;
+                height: 50px;
+                border: 1px solid olive;
+                font-size: 20px;
+            }
+        }
+        .radios{
+            width: 100%;
+            display: flex;
+            gap: 20px;
+            span{
+                font-size: 20px;
+                color:rgb(143, 50, 68);
+            }
+        }
+        button{
+            width: 100%;
+            height: 50px;
+            font-size: 30px;
+            border: 1px solid olive;
+            background-color: olive;
+            color: white;
+        }
+        table{
+            width: 100%;
+            border: 1px solid olive;
+            margin-top: 50px;
+            thead{
+                width: 100%;
+                height: 60px;
+                tr{
+                    th{
+                        font-size: 20px;
+                        border: 1px solid olive;
+                        background-color: olive;
+                        color: white;
+                        
+                    }
+                }
+            }
+            tbody{
+                width: 100%;
+                height: 40px;
+                tr{
+                    td{
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+#m{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: red;
+}
+    }
+}
